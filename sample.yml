@@ -1,0 +1,8 @@
+---
+- name: Debug sample
+  connection: local
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Debug
+      debug: msg="Hello World"
